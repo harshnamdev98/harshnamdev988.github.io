@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet> 
+        <servlet-name>Old_Servlet</servlet-name>
+        <servlet-class>Old_Servlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Generic_Ser</servlet-name>
+        <servlet-class>Generic_Ser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Old_Servlet</servlet-name>
+        <url-pattern>/Old_Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Reg_Servelet</servlet-name>
+        <servlet-class>Reg_Servelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Reg_Servelet</servlet-name>
+        <url-pattern>/Reg_Servelet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>registration_ser</servlet-name>
+        <servlet-class>registration_ser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registration_ser</servlet-name>
+        <url-pattern>/registration_ser</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Generic_Ser</servlet-name>
+        <url-pattern>/Generic_Ser</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

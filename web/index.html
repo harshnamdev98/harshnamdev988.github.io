@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            th{
+                text-align: left;
+                font-size: 20px;
+            }
+            
+            table{
+                padding:10px;
+                border:2px solid black;
+                margin: auto;
+               
+            }
+                        
+            #d1{
+                text-align: center;
+            }
+            #i1{
+                height:25px;
+                width:150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id='d1'>
+            <h1>Welcome to Login Page</h1>
+        </div>
+        <hr>
+        <form action="Old_Servlet" method="post">
+        <table>
+            
+                
+            <tr>
+                <th>
+                    First Name:                    
+                </th>
+                <td>
+                    <input type="text" name="fname" id="i1">
+                </td>
+                
+            </tr>
+            <tr>
+                <th>
+                    Last Name:                    
+                </th>
+                <td>
+                    <input type="text" name="lname" id="i1">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    E-mail:                    
+                </th>
+                <td>
+                    <input type="text" name="email" id="i1">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Passward:                    
+                </th>
+                <td>
+                    <input type="text" name="passw" id="i1">
+                </td>
+            </tr>
+            
+            <tr>
+                <th>
+                    Accept all terms and condition:                      
+                </th>
+                <td>
+                    yes
+                    <input type="radio" name="checkbox_yes" value="yes" >
+                    no
+                    <input type="radio" name="checkbox_no" value="no">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Login:                    
+                </th>
+                <td>
+                    <input type="submit" name="submit">
+                </td>
+            </tr>
+ 
+        </table>
+                       </form>
+    </body>
+</html>
